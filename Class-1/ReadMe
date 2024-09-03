@@ -1,4 +1,10 @@
 # Introduction to Data Mining
 
-We are faced with large amount of data which we want to get information/knowledge. Data Mining is the process of discovering interesting patterns, models, and other kinds of knowledge in large data sets.
-We explored various practical aspects of handling and analyzing data. We began by downloading multiple CSV files from a public dataset, organizing them, and ensuring they were properly downloaded. Next, we used DuckDB to perform SQL queries, including creating temporary views, aggregating data, and executing different types of queries. We analyzed loan data by identifying top SBA offices, examining the distribution of loans across NAICS codes, and exploring loan frequencies by business age. We also used Matplotlib to visualize the frequency distribution of NAICS sectors and summarize loan amounts through various charts. Additionally, we calculated key statistics such as minimum, median, average, standard deviation, and maximum for loan approval amounts. 
+We are faced with large amount of data which we want to get information/knowledge. Data Mining is the process of discovering interesting patterns, 
+models, and other kinds of knowledge in large data sets.
+We explored various practical aspects of handling and analyzing data. We began by downloading multiple CSV files from a public dataset, 
+organizing them, and ensuring they were properly downloaded. Next, we used DuckDB to perform SQL queries, including creating temporary views, 
+aggregating data, and executing different types of queries. We analyzed loan data by identifying top SBA offices, examining the distribution of 
+loans across NAICS codes, and exploring loan frequencies by business age. We also used Matplotlib to visualize the frequency distribution of NAICS 
+sectors and summarize loan amounts through various charts. Additionally, we calculated key statistics such as minimum, median, average, standard 
+deviation, and maximum for loan approval amounts. 

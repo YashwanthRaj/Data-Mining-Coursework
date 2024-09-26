@@ -1,0 +1,10 @@
+uszipcode
+duckdb
+scikit-learn
+pandas
+matplotlib
+jupyter
+notebook
+jupyterlab
+sqlalchemy_mate>=1.4.28.3,<2.0.0.0
+python-Levenshtein

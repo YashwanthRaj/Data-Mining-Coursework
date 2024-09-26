@@ -1,13 +1,17 @@
 # Data Mining 
 
-# Class 1 - Introduction to Data Mining
+# Class 1 
 We are faced with large amount of data which we want to get information/knowledge. Data Mining is the process of discovering interesting patterns, models, and other kinds of knowledge in large data sets. 
 
 We explored various practical aspects of handling and analyzing data. We began by downloading multiple CSV files from a public dataset, organizing them, and ensuring they were properly downloaded. Next, we used DuckDB to perform SQL queries, including creating temporary views, aggregating data, and executing different types of queries. We analyzed loan data by identifying top SBA offices, examining the distribution of loans across NAICS codes, and exploring loan frequencies by business age. We also used Matplotlib to visualize the frequency distribution of NAICS sectors and summarize loan amounts through various charts. Additionally, we calculated key statistics such as minimum, median, average, standard deviation, and maximum for loan approval amounts. 
 
-# Class 2 - Dimensional Modeling Design Matrix
+# Class 2 
 In this class, we began by working with movie data, including ratings, movies, tags, and genres. We created various tables to organize and analyze the data, starting with user information derived from their earliest reviews and then focusing on movies and genres. We also built a comprehensive date dimension table to provide detailed date-related information. With the fact tables, like ratings, in place, we performed queries to find insights, such as identifying movies with the most reviews. We then created a user table that included information on the number of reviews and average ratings for each user, and another table to analyze genre-specific ratings. To measure user similarity, we computed Euclidean distances and cosine similarities, using these measures to identify the most similar and dissimilar users. Finally, we normalized the data and compared users based on their ratings to better understand their similarities and differences.
 
 # Class 3
 
 So far, we have been working on a data mining project involving the MovieLens dataset. We started by exploring and querying the dataset to understand the distribution of movie ratings, particularly focusing on high-rated movies and the relationships between them. We created and manipulated tables to identify frequently co-rated movies and generated candidate itemsets of various sizes. Using these itemsets, we calculated support and confidence for association rules, ultimately constructing a table of rules to analyze movie recommendations. We’ve also examined specific movie IDs to find recommendations based on frequent itemsets that include both movies, setting up queries to derive and present potential suggestions.
+
+# Class 4
+
+we explored various clustering techniques and their applications in analyzing geographic data through the lens of Rural-Urban Commuting Area (RUCA) codes. We implemented K-Means clustering and DBSCAN to identify patterns within our dataset, examining how different features and parameters influenced clustering results. We learned to evaluate the effectiveness of our clustering through metrics like the Normalized Mutual Information Score (NMI), which helped us assess the relationship between our cluster labels and RUCA codes. Additionally, we conducted experiments involving feature scaling, hyperparameter tuning, and a grid search for optimal clustering configurations. Throughout this process, we also encountered the importance of data preprocessing, such as handling missing values and scaling numerical features. Finally, we documented our findings, providing insights into the implications of clustering results while recognizing the limitations and potential areas for further research in the context of demographic data.
